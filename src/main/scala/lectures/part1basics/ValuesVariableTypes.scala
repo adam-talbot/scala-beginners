@@ -1,6 +1,6 @@
 package lectures.part1basics
 
-object ValuesVariableTypes extends App{
+object ValuesVariableTypes extends App {
 
   // define a variable in scala
 

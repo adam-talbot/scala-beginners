@@ -8,7 +8,7 @@ object Inheritance extends App {
     def eat = println("nomnom")
     // private method
     private def burp = println("BURP")
-    // protected method
+    // protected method (can only be accessed in this class and subclasses)
     protected def scarf = println("NOMNOM")
 
     // val overriding

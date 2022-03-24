@@ -69,8 +69,10 @@ object MethodNotations extends App {
   // call in conjunction with apply
   println(maryRockstar())
   // I can call the new instance using the apply
-  println((mary + "rockstar")())
+  println((mary + "rockstar")()) // infix notation
+  // println((mary.+("rockstar"))()) // standard syntax
   println((mary + "rockstar").apply())
+  // println((mary.+("rockstar")).apply())
   // this runs the same way (principle of substitution)
 
   // test exercise 2
