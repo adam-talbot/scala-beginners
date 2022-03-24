@@ -38,5 +38,6 @@ object AbstractDataTypes extends App {
   // 1. Traits do not have constructor params
   // 2. Multiple traits may be inherited by the same class (classes can only be inherited once)
   // 3. traits = behavior, abstract class = "thing"
+  
 
 }
