@@ -85,5 +85,6 @@ object Sequences extends App {
   // depth of the tree is small
   // needs to replace an entire 32-element chunk
   println(getWriteTime(numbersVector))
+  // vector is almost 2000x faster
 
 }
